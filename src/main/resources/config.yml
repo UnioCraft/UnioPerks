@@ -1,0 +1,123 @@
+potionPerks:
+  catvision:
+    command: catvision
+    aliases: [kedigörüşü, kedigözü, kedigozu, kedigorusu]
+    perkType: potion
+    potion: NIGHT_VISION
+    potionLevel: 1
+    potionLength: 86400
+    cooldown: 0
+  energydrink:
+    command: catvision
+    aliases: [enerjiiçeceği, enerji, enerjiicecegi]
+    perkType: potion
+    potion: FAST_DIGGING
+    potionLevel: 1
+    potionLength: 86400
+    cooldown: 0
+  strength:
+    command: vipstr
+    aliases: [vipgucu, vipgücü, vstr]
+    perkType: potion
+    potion: INCREASE_DAMAGE
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  speed:
+    command: vipspd
+    aliases: [viphizi, viphızı, viphiz]
+    perkType: potion
+    potion: SPEED
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  jump:
+    command: vipjmp
+    aliases: [vipziplama, vipzıplama]
+    perkType: potion
+    potion: JUMP
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  air:
+    command: vipair
+    aliases: [vipsualti, vipsualtı, vipnefes]
+    perkType: potion
+    potion: WATER_BREATHING
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  fireresistance:
+    command: vipfir
+    aliases: [vipatesdirenci, vipateşdirenci]
+    perkType: potion
+    potion: FIRE_RESISTANCE
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  fastdigging:
+    command: vipdig
+    aliases: [vipkazma]
+    perkType: potion
+    potion: FAST_DIGGING
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  resistance:
+    command: vipris
+    aliases: [vipdirenci]
+    perkType: potion
+    potion: DAMAGE_RESISTANCE
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  regeneration:
+    command: vipreg
+    aliases: [vipyenileme]
+    perkType: potion
+    potion: REGENERATION
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  invisibility:
+    command: vipinv
+    aliases: [vipgorunmezlik, vipgörünmezlik]
+    perkType: potion
+    potion: INVISIBILITY
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+  nightvision:
+    command: vipsee
+    aliases: [vipgecegorusu, vipgecegörüşü]
+    perkType: potion
+    potion: NIGHT_VISION
+    potionLevel: 1
+    potionLength: 300
+    cooldown: 300
+dropControl:
+  disabledWorlds:
+    - disabledWorld1
+    - disabledWorld2
+  useBlacklistAsWhitelist: false
+  blacklist:
+    - SKULL_ITEM
+    - SKULL
+    - HOPPER
+    - MOB_SPAWNER
+    - CHEST
+    - BEDROCK
+    - END_PORTAL_FRAME
+    - BANNER
+    - WALL_BANNER
+    - STANDING_BANNER
+    - LONG_GRASS
+  fortuneBlocks:
+    - DIAMOND_ORE
+    - EMERALD_ORE
+    - GOLD_ORE
+    - IRON_ORE
+    - LAPIS_ORE
+    - REDSTONE_ORE
+    - QUARTZ_ORE
+    - COAL_ORE

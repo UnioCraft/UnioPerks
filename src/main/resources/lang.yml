@@ -1,0 +1,72 @@
+commands:
+  invalidCommand: "%hataPrefix% Hatalı bir komut girdiniz!"
+  playerOnly: "%consolePrefix% Bu komut sadece oyuncular tarafından kullanılabilir."
+  reload:
+    usage: "&aKullanım: &6/unioperks reload"
+    success: '%bilgiPrefix% UnioPerks yapılandırması yenilendi.'
+  fly:
+    usage: "&aKullanım: &6/fly"
+  potion:
+    usage: "&aKullanım: &6/unioperks potion <potionName>"
+  clearpotions:
+    usage: "&aKullanım: &6/unioperks clearpotions"
+    success: '%bilgiPrefix% Üzerinizdeki tüm iksir efektleri silindi!'
+  autoCollect:
+    usage: "&aKullanım &6/unioperks autocollect"
+    toggledOn: "%bilgiPrefix% &6Düşen eşyaları otomatik toplama &aetkinleştirildi!"
+    toggledOff: "%bilgiPrefix% &6Düşen eşyaları otomatik toplama &cdevre dışı &6bırakıldı."
+  autoSell:
+    usage: "&aKullanım &6/unioperks autosell"
+    toggledOn: "%bilgiPrefix% &6Düşen eşyaları otomatik satma &aetkinleştirildi!"
+    toggledOff: "%bilgiPrefix% &6Düşen eşyaları otomatik satma &cdevre dışı &6bırakıldı."
+  givefly:
+    usage: "&aKullanım: &6/unioperks givefly <isim> <süre>"
+    badnumber: "%hataPrefix% Hatalı bir süre girdiniz!"
+    success: "%bilgiPrefix% Uçuş süresi başarıyla eklendi!"
+    playernotexist: "%hataPrefix% Belirttiğiniz oyuncu mevcut değil!"
+perks:
+  inCooldown: "%hataPrefix% Bu özelliği tekrar kullanabilmek için &6%seconds% &csaniye beklemelisiniz!"
+  fly:
+    flightEnabled: "%bilgiPrefix% Uçuş modu açıldı."
+    flightEnabledWithTime: "%bilgiPrefix% Uçuş modu açıldı. Kalan uçuş süresi: &b%time%"
+    flightDisabled: "%bilgiPrefix% Uçuş modu kapatıldı."
+    flightDisabledWithTime: "%bilgiPrefix% Uçuş modu kapatıldı. Kalan uçuş süresi: &b%time%"
+    noFlightTime: "%hataPrefix% Uçuş süreniz olmadığı için uçma açılamadı!"
+    flightTimeRemaining: "&aUçuş sürenizin bitmesine &c&l%flyTime% &asaniye kaldı!"
+    flightTimeExpired: "%dikkatPrefix% Uçuş süreniz bitt!"
+  potions:
+    catvision:
+      enabled: |
+        %bilgiPrefix% Kedi görüşü özelliğin açıldı!
+        %bilgiPrefix% /iksirtemizle komutu ile dilediğin zaman iksir efektlerini silebilirsin!
+    energydrink:
+      enabled: |
+        %bilgiPrefix% Enerji içeceği özelliğin açıldı!
+        %bilgiPrefix% /iksirtemizle komutu ile dilediğin zaman iksir efektlerini silebilirsin!
+    strength:
+      enabled: "%bilgiPrefix% Artık darbelerin daha güçlü!"
+    speed:
+      enabled: "%bilgiPrefix% Artık daha hızlısın!"
+    jump:
+      enabled: "%bilgiPrefix% Artık daha yükseğe zıplayabiliyorsun!"
+    air:
+      enabled: "%bilgiPrefix% Artık su altında nefes alabiliyorsun!"
+    fireresistance:
+      enabled: "%bilgiPrefix% Artık ateş sana zarar veremez!"
+    fastdigging:
+      enabled: "%bilgiPrefix% Artık daha hızlı kazı yapabilirsin!"
+    resistance:
+      enabled: "%bilgiPrefix% Artık direnç seviyen daha yüksek!"
+    regeneration:
+      enabled: "%bilgiPrefix% Artık sağlığın çok daha hızlı yenileniyor!"
+    invisibility:
+      enabled: "%bilgiPrefix% Artık seni kimse göremez!"
+    nightvision:
+      enabled: "%bilgiPrefix% Artık geceleri daha iyi görebiliyorsun!"
+general:
+  noPermission: "%hataPrefix% Bunun için izniniz yok!"
+prefix:
+  bilgiPrefix: "&b&lUNIOCRAFT &2->&a"
+  dikkatPrefix: "&b&lUNIOCRAFT &2->&6"
+  hataPrefix: "&b&lUNIOCRAFT &2->&c"
+  consolePrefix: "[UnioPerks] "

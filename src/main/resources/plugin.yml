@@ -1,0 +1,13 @@
+name: UnioPerks
+main: me.uniodex.unioperks.UnioPerks
+author: 'UnioDex'
+version: 1.0
+
+depend: [UnioEssentials, Vault, Essentials]
+softdepend: [ShopGUIPlus, UnioCustomItems, WorldGuard]
+
+commands:
+  unioperks:
+    description: unioperks
+  fly:
+    description: fly
